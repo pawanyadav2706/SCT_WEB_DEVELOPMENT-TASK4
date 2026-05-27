@@ -90,4 +90,47 @@ button{
     font-size: 30px;
     font-weight: bold;
     outline: none;
+    cursor: pointer;
+}
+
+.task-list{
+    width: 100%;
+    margin-top: 30px;
+    list-style: none;
+}
+
+.taskItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secondraybackground);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.task{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.task.completed p{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.icons{
+    display: flex;
+    gap: 10px;
+}
+
+.icons img{
+    cursor: pointer;
+}
+
+.checkbox{
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
 }
